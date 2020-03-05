@@ -36,6 +36,6 @@ def main():
         dictBucketBody = json.loads(bucketBody)
         for bucketKey, bucketValue in dictBucketBody.items():
             if(value == bucketKey):
-                print(value, bucketValue)
+                print(bucketValue)
 
 main()
